@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+.container {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.col-left {
+    min-height: 10vh;
+    min-width: 25%;
+    padding: 0 30px;
+}
+
+/*Lingua*/
+.lingua{
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.lingua label{
+    font-size: 12px;
+    margin-left: 4px;
+    
+}
+
+.lingua select{
+    margin-left: 4px;
+    font-size: 12px;
+    width: 64%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #C6C6D9;
+}
+
+
+.form-control:focus{
+    background: #f7e1d0
+}
+
+
+
+img{
+   width: 66px; 
+}
+
+.col-left h2{
+    font-size: 18px;
+    margin-top: 8px;
+    font-weight: lighter;
+}
+
+form{
+    width: 100%;
+    margin-top: 12px;
+}
+
+.form-group{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    font-size: 12px;
+}
+
+
+ input[type="text"], input[type="password"]{
+    border: none;
+    border: 1px solid #C6C6D9;
+    border-radius: 2px;
+    margin-top:4px;
+
+    padding: 0 6px;
+    height: 30px;
+
+}
+
+
+form button{
+    background: #fc7312;
+    color: white;
+    border: none;
+    display: block;
+    width: 100%;
+}
+
+.col-right {
+    min-height: 10vh;
+    background: #fad2be url("https://fxonline.riaenvia.net/Features/Shared/img/login-bg.jpg") no-repeat center fixed;
+    min-width: 75%;
+    background-size: 100%;
+    padding: 4.6rem;
+}
+
+h1{
+    font-size: 4.6em;
+    font-weight: 100;
+    width: 80%;
+    color: #001133;
+}
