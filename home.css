@@ -1,137 +1,24 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', Helvetica, sans-serif;
-}
 
-/*navbar*/
-nav {
-    height: 56px;
+.container{
+    margin: 0 auto;
+    max-width: 80%;
     display: flex;
-    justify-content: space-between;
-    padding: 0px 10px;
-    border-bottom: 5px solid #ff6100;
-}
+    gap: 2;
+}   
 
-nav div {
-    display: flex;
+
+
+.col1{
     width: 100%;
-}
-
-/*Nabar contendor izquierdo*/
-
-
-.operations {
-    width: 100%;
+    border: 2px solid blueviolet;
     display: flex;
+    flex-direction: column;
+    justify-content: start;
+
 }
 
-ul li {
-    list-style-type: none;
+.cercatore{
     display: flex;
-
-}
-
-ul li a {
-    padding: 8px 8px 0px 8px;
-    text-decoration: none;
-    font-size: 12px;
-    display: flex;
-    align-items: center;
-    color: #000000;
-}
-
-ul li a:hover {
-    border-bottom: 4.5px solid #ff6100;
-
-}
-
-
-.ico-logo {
-    display: inline-block;
-    background: url("https://fxonline.riaenvia.net/Features/Shared/img/sprites/_sprite_header.png?v=3") no-repeat;
-    overflow: hidden;
-    text-align: left;
-    height: 100%;
-    width: 80px;
-}
-
-/*Nabar contendor derecho*/
-div:nth-child(2) {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-div a*{
-    width: 100%;
-}
-
-.ico{
-    width: 56px;
-}
-
-.ico-search{
-    display: inline-block;
-    background: url("https://fxonline.riaenvia.net/Features/Shared/img/sprites/_sprite_header.png?v=3") no-repeat;
-    overflow: hidden;
-    text-align: left;   
-    height: 88%;
-    background-position-y:bottom;
-
-}
-.ico-stru{
-    display: inline-block;
-    background: url("https://fxonline.riaenvia.net/Features/Shared/img/sprites/_sprite_header.png?v=3") no-repeat;
-    overflow: hidden;
-    text-align: left;   
-    height: 88%;
-    background-position-y: 79%;
-
-}
-.ico-elen{
-    display: inline-block;
-    background: url("https://fxonline.riaenvia.net/Features/Shared/img/sprites/_sprite_header.png?v=3") no-repeat;
-    overflow: hidden;
-    text-align: left;   
-    height: 100%;
-    background-position-y:center;
-
-}
-.ico-serv{
-    display: inline-block;
-    background: url("https://fxonline.riaenvia.net/Features/Shared/img/sprites/_sprite_header.png?v=3") no-repeat;
-    overflow: hidden;
-    text-align: left;   
-    height: 100%;
-    background-position-y: 21%;
-}
-
-.ico-help{
-    display: inline-block;
-    background: url("https://fxonline.riaenvia.net/Features/Shared/img/sprites/_sprite_header.png?v=3") no-repeat;
-    overflow: hidden;
-    text-align: left;   
-    height: 100%;
-    background-position-y: 35%;
-}
-
-/*Info*/
-.info {
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
-    padding: 0px 0px;
-}
-
-.info span {
-    margin: 6px;
-    font-size: 11px;
-}
-
-.info span:nth-child(1) {
-    color: #ff6100;
-    justify-content: flex-end;
+        flex-direction: column;
+    background: lightgrey;
 }
